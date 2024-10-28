@@ -27,7 +27,7 @@ form{
     height: 16%;
 }
 
-form div:first-of-type input{
+.display input{
     width: 95%;
     height: 100%;
     background-color: rgb(59, 53, 53);
@@ -57,4 +57,13 @@ form div:last-of-type input:last-of-type{
 }
 .operators{
     color: #33ffd8;
+}
+@media (max-width: 786px){
+    .calculator{
+        width: 100%;
+        height: 80vh;
+    }
+    .display input{
+        font-size: xx-large;
+    }
 }
