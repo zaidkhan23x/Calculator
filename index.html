@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator using HTML,CSS & Js</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,7 +12,7 @@
         <div class="calculator">
             <form >
                 <div class="display">
-                    <input type="text" name="display">
+                    <input type="text" name="display" onfocus="blur();">
                 </div>
                 <div>
                     <input type="button" value="AC" onclick="display.value=''" class="operators">
